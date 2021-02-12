@@ -1,0 +1,41 @@
+@import "../base/variables";
+header{
+    background-color: $color-secondary;
+    padding-top: 8px !important;
+    padding-bottom: 8px !important;
+    font-family: $font-primary;
+}
+body{
+    font-family: $font-secondary;
+    font-size: 20px;
+}
+.first-section{
+    background-color: $color-primary !important;
+    margin-top: 64px;
+    h1{
+        font-size: 64px;
+        font-family: $font-primary;
+    }
+    p{
+        font-size: 24px;
+    }
+}
+.about-section{
+    background-color: $color-primary !important;
+    font-family: $font-secondary;
+    font-size: 20px;
+}
+.footer-top-section{
+    background-color: $color-secondary;
+    padding-top: 80px !important;
+    padding-bottom: 80px !important;
+    h4{
+        font-weight: bold;
+        font-family: $font-primary;
+    }
+}
+.copyright-section{
+    background-color: #1A252F;
+    padding: 24px 0 0 24px;
+    font-size: 12px;
+}

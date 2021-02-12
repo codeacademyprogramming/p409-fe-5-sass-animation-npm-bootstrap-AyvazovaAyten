@@ -1,0 +1,32 @@
+@import "../base/variables";
+.section-pdg{
+    padding-top: 96px !important;
+    padding-bottom: 96px !important;
+}
+.link{
+    text-decoration: none;
+    color: $color-primary !important;
+}
+.section-header{
+    font-family: $font-primary;
+    font-size: 48px;
+}
+.fa{
+    border-radius: 50%;
+    width: 54px;
+    height: 54px;
+    margin:  8px 2px 2px 0 !important;
+}
+section:nth-child(2n+1){
+    & .line{
+        background-color: $color-secondary;
+    }
+    color:$color-secondary;
+    
+}
+section:nth-child(2n){
+    & .line{
+        background-color: white;
+    }
+    color:white;
+}

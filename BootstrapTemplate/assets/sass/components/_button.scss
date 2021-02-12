@@ -1,0 +1,18 @@
+@import "../base/variables";
+#download-icon{
+    width: 12px;
+    margin-right: 20px;
+}
+.btn{
+    font-size: 1.25rem;
+    padding:16px !important;
+    margin-top: 24px;
+}
+.form-submit-btn{
+    background-color: $color-primary;
+    color: white !important;
+    width: 16%;
+}
+.form-submit-btn:hover{
+    background-color: #197e6a;
+}
